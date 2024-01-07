@@ -1,0 +1,74 @@
+@font-face {
+    font-family: tommy;
+    src: url(font/MADE\ TOMMY\ Medium_PERSONAL\ USE.otf);
+}
+@font-face {
+    font-family: tommy_bold;
+    src: url(font/MADE\ TOMMY\ Bold_PERSONAL\ USE.otf);
+}
+@font-face {
+    font-family: tommy_thin;
+    src: url(font/MADE\ TOMMY\ Thin_PERSONAL\ USE.otf);
+}
+
+@media (max-width: 768px) {
+    .collapse.navbar-collapse {
+        position: fixed;
+        top: 0;
+        left: -100%;
+        width: 80%;
+        height: 100%;
+        overflow-y: auto;
+        background-color: #333;
+        transition: left 0.3s ease;
+    }
+    .collapse.navbar-collapse.show {
+        left: 0;
+    }
+    .row{
+        padding-top: 20px;
+    }
+}
+
+.navbar-brand img {
+    width: 50px;
+    height: 50px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: tommy;
+    overflow-x:none ;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    margin-bottom: 0%;
+}
+
+.col-md-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+
+.navbar-nav .nav-item .nav-link.active {
+    text-align: center;
+}
+
+.navbar-nav .nav-item .nav-link#login:hover {
+    background-color: orange;
+}
+
+.nav-item .nav-link#login{
+    border: 1px solid white;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+.navbar-nav .nav-item .nav-link{
+    padding: 2px 15px;
+}

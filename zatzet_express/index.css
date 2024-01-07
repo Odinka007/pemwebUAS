@@ -1,0 +1,43 @@
+*{
+    /* border: 1px solid red; */
+}
+
+@media (max-width: 768px) {
+    .d-flex{
+        padding-top: 5%;
+    }
+}
+
+h1{
+    font-family: tommy_bold;
+    color: orange;
+}
+
+.btn-orange {
+    border: 1px solid orange;
+    background-color: white;
+    color: orange;
+}
+
+.btn-orange:hover {
+    background-color: orange;
+    color: white;
+}
+
+.d-flex .text-center .angka{
+    color: #289DC2;
+}
+
+.beranda{
+    padding: 30px 150px;
+}
+
+.garis {
+    border-left: 2px solid #289DC2;
+    height: 60px;
+}
+
+.container .text-center{
+    margin: 30px 0px;
+    padding: 20px;
+}
